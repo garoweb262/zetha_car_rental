@@ -9,4 +9,6 @@ Members of zetha group are
 Fcp/ccs/18/1025
 5-Aliyu Ahmad
  fcp/csc/19/2004
+6-Abubakar sadiq Ibrahim 
+FCP/CIT/18/1023
 
