@@ -1,0 +1,106 @@
+
+#intro {
+  width: 100%;
+  height: 100vh;
+  background: url(../img/cars/2.jpg) top center;
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+}
+
+#intro:before {
+  content: "";
+  background: rgba(6, 12, 34, 0.5);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#intro .intro-container {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  top: 90px;
+  padding: 0 15px;
+}
+
+#intro ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+position:absolute;
+top: 5px;
+width: 100%;
+ 
+}
+#intro li{
+  float: right;
+}
+#intro a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none
+}
+
+#intro h1 {
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+  font-size:46px;
+  font-weight: 550;
+  margin-left: 250px;
+    margin-top: 180px;
+  text-transform: uppercase;
+}
+
+#intro h1 span {
+  color: #ee9827;
+}
+
+#intro p {
+  margin-top:0;
+  color: #ebebeb;
+  font-weight: 700;
+  font-size: 20px;
+  margin-left: 290px;
+}
+
+#intro .bn{
+  border: 2px solid #fff;
+  border-radius: 20px;
+  background-color:#ac1d1d; 
+}
+
+
+
+#about{
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+#about .section-header h3{
+color:#ac1d1d;
+  font-size: 20px;
+  font-weight: 900;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 350px;
+}
+#about .card{
+  padding: 5px 5px 5px 5px;
+}
+#about .about-img img{
+  width: 80%;
+  height: 70%;
+  border-radius: 50px;
+  margin-left: 20px;
+}
+#about .text{
+  margin-top: 10px;
+  margin-right:50px;
+  color: red;
+}
