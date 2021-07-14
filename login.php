@@ -23,7 +23,7 @@
             <span></span>
             <label for="">Password</label>
             </div>
-            <div class="pass"><a href="#">Forget Password?  </a></div>
+            <div class="pass"><a href="forget.php">Forget Password?  </a></div>
             <input type="submit" name="" value="Login">
             <div class="signup_link">
                 Not a member <a href="#">signup</a>

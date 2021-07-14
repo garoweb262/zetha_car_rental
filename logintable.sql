@@ -16,5 +16,5 @@ CREATE TABLE IF NOT EXISTS `users` (
 -- Dumping data for table `users`
 --
 
-INSERT INTO `users` (`cstm_id`, `username`, `password`,) VALUES
-(1, 'asmau', 'asmau@@445')
+INSERT INTO `users` (`cstm_id`, `username`, `password`) VALUES
+(1, 'asmau', 'asmau@@445');
