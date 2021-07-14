@@ -16,5 +16,5 @@ CREATE TABLE IF NOT EXISTS `users` (
 -- Dumping data for table `users`
 --
 
-INSERT INTO `mobile_store_basket` (`cstm_id`, `username`, `password`,) VALUES
+INSERT INTO `users` (`cstm_id`, `username`, `password`,) VALUES
 (1, 'asmau', 'asmau@@445')
