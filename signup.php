@@ -33,7 +33,7 @@
                       
                        </div>
                        <div class="card-body">
-                        <form action="dashboard.php" method="">
+                        <form action="login.php" method="post">
                             <div class="form-group">
                                 <input type="text" name="username" placeholder="username" required>
                             </div>
