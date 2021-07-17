@@ -1,6 +1,6 @@
 <?php
 
-require_once "config/config.php";
+require_once "connnect/connect.php";
  
 
 if($_SERVER["REQUEST_METHOD"] == "POST"){
