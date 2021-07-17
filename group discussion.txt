@@ -1,0 +1,6 @@
+hy everyone i change the directory of all the files as i told you we changing the project to zetha car rental management system.
+that is we as an admin are the one to login into the software and register a user with his information if he need a car for rent,
+and we will have payment card page where we will be saving card details of the user so that we can easily apply online payment using the 
+card details will store to make payment for the car a user rented from us.
+the user will only be able to see the home page that contain about us section, our services and team section with a contact form that a user 
+can contact us for help or support
