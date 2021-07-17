@@ -1,5 +1,34 @@
 <?php
 include "connect/connect.php";
+
+if(isset($_GET['submit'])){
+$fullname = $_GET['fullname'];
+$email = $_GET['email'];
+$phone = $_GET['phone'];
+$subject = $_GET['subject'];
+$message = $_GET['message'];
+
+$sql = "INSERT INTO contact (fullname, email, phone, subject, message) VALUES (:fullname, :email, :phone, :subject, :message)";
+if($stmt = $db->prepare($sql)){
+            
+            $stmt->bindParam(":fullname", $fullname);
+            $stmt->bindParam(":email", $email);
+            $stmt->bindParam(":phone", $phone);
+            $stmt->bindParam(":subject", $subject);
+            $stmt->bindParam(":message", $message);
+
+    if($stmt->execute()){
+                
+                header("location: index.php");
+                exit();
+            } else{
+                echo "Oops! Something went wrong. Please try again later.";
+            }
+}
+}
+
+
+
 ?>
 
 <!DOCTYPE html>
@@ -152,7 +181,7 @@ include "connect/connect.php";
           <span class="span"></span>
         </div>
         <div class="col-lg-12">
-           <form action="contact.php" method="post">
+           <form action="index.php" method="GET">
              <div class="row">
                <div class="col-lg-6 col-md-4">
                 <div class="form-group">

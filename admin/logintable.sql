@@ -7,8 +7,8 @@
 DROP TABLE IF EXISTS `users`;
 CREATE TABLE IF NOT EXISTS `users` (
   `cstm_id` int(100) NOT NULL AUTO_INCREMENT,
-  `username` varchar(250) NOT NULL DEFAULT '',
-  `password` varchar(250) NOT NULL DEFAULT '',
+  `username` varchar(250) NOT NULL,
+  `password` varchar(250) NOT NULL,
   PRIMARY KEY (`cstm_id`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
 

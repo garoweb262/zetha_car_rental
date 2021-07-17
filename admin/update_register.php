@@ -5,9 +5,9 @@
 </head>
 
 <body>
-<h2>#Update Information Page...!</h2>
+<h2>Update Information Page...!</h2>
 <p>A new page that allow users to update their personal details or informations!!</p>
-<form action="">
+<form action="dashboard.php">
 <h3>make a changes of information</h3>
    <label for="name"> full name </label>
    <input type="text" maxlength="35" placeholder="e.g firstname surname" required />
