@@ -4,7 +4,7 @@
  * Copyright 2011-2018 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
-:root {
+:root{
   --blue: #007bff;
   --indigo: #6610f2;
   --purple: #6f42c1;
@@ -41,7 +41,7 @@
   box-sizing: border-box;
 }
 
-html {
+html{
   font-family: sans-serif;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
@@ -50,7 +50,7 @@ html {
   -webkit-tap-highlight-color: transparent;
 }
 
-@-ms-viewport {
+@-ms-viewport{
   width: device-width;
 }
 
@@ -58,7 +58,7 @@ article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, s
   display: block;
 }
 
-body {
+body{
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 1rem;
@@ -73,7 +73,7 @@ body {
   outline: 0 !important;
 }
 
-hr {
+hr{
   box-sizing: content-box;
   height: 0;
   overflow: visible;
@@ -84,7 +84,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0.5rem;
 }
 
-p {
+p{
   margin-top: 0;
   margin-bottom: 1rem;
 }
@@ -98,7 +98,7 @@ abbr[data-original-title] {
   border-bottom: 0;
 }
 
-address {
+address{
   margin-bottom: 1rem;
   font-style: normal;
   line-height: inherit;
@@ -106,7 +106,7 @@ address {
 
 ol,
 ul,
-dl {
+dl{
   margin-top: 0;
   margin-bottom: 1rem;
 }
