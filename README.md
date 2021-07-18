@@ -1,23 +1,23 @@
-Members of zetha group are
-1- Garzali Ahmad
- Garo fcp/csc/18/1013
+Members of zetha group are:
+
+1- Garzali Ahmad Garo 
+    FCP/CSC/18/1013
 2- Asmau Mahmud
- fcp/cit/18/1020
+    FCP/CIT/18/1020             
 3- Abdulwaris Ahmad
- fcp/csc/18/1009
-4-Umar faruk shehu
-Fcp/ccs/18/1025
+    FCP/CSC/18/1009           
+4-Umar Faruk Shehu
+    FCP/CCS/18/1025           
 5-Aliyu Ahmad
- fcp/csc/19/2004
-6-Abubakar sadiq Ibrahim 
-FCP/CIT/18/1023
+    FCP/CSC/19/2004              
+6-Abubakar Sadiq Ibrahim FCP/CIT/18/1023           
 7-Yusuf Olatunji Adeshina 
-Fcp/csc/18/1077
+    FCP/CSC/18/1077      
 8- Ahmad Umar Farouk
-Fcp/csc/18/1039
+    FCP/CSC/18/1039
 9-Mubarak Yakubu
-FCP/CSC/18/1095
-10-ogbole moses daniel (odogwu-malay)
-fcp/ccs/18/1018
-11-yusuf sani
-FCP/CIT/18/1022
+    FCP/CSC/18/1095        
+10-Ogbole Moses Daniel (odogwu-malay)
+    FCP/CCS/18/1018       
+11-Yusuf Sani
+    FCP/CIT/18/1022
