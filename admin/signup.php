@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/signup.css" rel="stylesheet">  
-  <link href="lib/bootstrap/css/bootstrap.css" rel="stylesheet">
-  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="lib/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <title>Sign up---Zetha cars rentals</title>
 </head>
 <body>
@@ -14,7 +14,7 @@
         <div class="row">
             <div class="col-md-6">
                 <div id="build">
-                <div class="intro-container">
+                  <div class="intro-container">
                     <div class="row">
                         <div class="col-md-12">
                            <h3 class="name">ZETHA CAR RENTALS </h3>
@@ -61,12 +61,11 @@
 
 
                 </div>
-            </div>
-          
+       </div>
 
-        </div>
+    </div>
      
-  </section>
+ </section>
     
 </body>
 </html>
