@@ -2,7 +2,6 @@ Members of zetha group are:
 
 1- Garzali Ahmad Garo 
     FCP/CSC/18/1013
-
 2- Asmau Mahmud
     FCP/CIT/18/1020             
 3- Abdulwaris Ahmad
