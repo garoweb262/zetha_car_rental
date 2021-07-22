@@ -1,3 +1,56 @@
+<?php
+include 'connect/connect.php';
+ 
+$fullname =  $address = $email = $phone = $gender = $zipcode = $town = $state ='';
+    
+    if(isset($_POST["id"]) && !empty($_POST["id"])){
+    // Get hidden input value
+    $id = $_POST["id"];
+
+ 
+        $sql = "UPDATE register_user SET fullname=:fullname, address=:address, gender=:gender, email=:email, phone=:phone, zipcode=:zipcode, town=:town, state=:state WHERE id=:id";
+ 
+        if($stmt = $pdo->prepare($sql)){
+            
+            $stmt->bindParam(":fullname", $param_fullname);
+            $stmt->bindParam(":address", $param_address);
+            $stmt->bindParam(":email", $param_email);
+            $stmt->bindParam(":phone", $param_phone);
+            $stmt->bindParam(":gender", $param_gender);
+            $stmt->bindParam(":zipcode", $param_zipcode);
+            $stmt->bindParam(":town", $param_town);
+            $stmt->bindParam(":state", $param_state);
+            $stmt->bindParam(":id", $param_id);
+            
+            $param_fullname = $fullname;
+            $param_address = $address;
+            $param_email = $email;
+            $param_phone = $phone;
+            $param_gender = $gender;
+            $param_zipcode = $zipcode;
+            $param_state = $state;
+            $param_town = $town;
+            $param_id = $id;
+
+            if($stmt->execute()){
+                // Records updated successfully. Redirect to landing page
+                header("location: dashboard.php");
+                exit();
+            } else{
+                echo "Oops! Something went wrong. Please try again later.";
+            }
+        }
+         
+        // Close statement
+        unset($stmt);
+   
+    
+    // Close connection
+    unset($pdo);
+ }        
+?>
+
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,13 +60,13 @@
 <body>
 <h2>Update Information Page...!</h2>
 <p>A new page that allow users to update their personal details or informations!!</p>
-<form action="dashboard.php">
+<form action="" method="post">
 <h3>make a changes of information</h3>
    <label for="name"> full name </label>
-   <input type="text" maxlength="35" placeholder="e.g firstname surname" required />
+   <input type="text" name="fullname" maxlength="35" placeholder="e.g firstname surname" required />
 <br>
 <label for="phone"> phone no </label>
-<input type="number" maxlength="11" placeholder="+234*****"required />
+<input type="number" name="phone" maxlength="11" placeholder="+234*****"required />
 <br>
 <label for="email">email adr</label>
 <input type="email" name="email" placeholder="example@gmail.com" required />
@@ -23,19 +76,23 @@
 <input type = "radio" name ="gender" value="male ">Male
 <br>
 <label for=" address">address</label>
-<input type="text" name="Address" placeholder="e.g road/street/home no "requied>
+<input type="text" name="address" placeholder="e.g road/street/home no "requied>
 <div>
 <label for="zipcode">zipcode</label>
-<input type="text" name="zip code" placeholder="zip codes"requied>
+<input type="text" name="zipcode" placeholder="zip codes"requied>
 <br>
-<label for="state">STATE</label>
+<label for="zipcode">town</label>
+<input type="text" name="town" placeholder="zip codes"requied>
+<br>
+<label for="state">state</label>
 <input type="text" name="state" placeholder="city e.g kano" requied>
 <div>
 <center>
-<button type="UPDATE">UPDATE</button>
+	<input type="hidden" name="id" value="<?php echo $id; ?>"/>
+     <input type="submit" class="btn btn-primary" value="Submit">
 </center>
 </form>
-
+	
 <h4>for more information visit us@ www.updateinfo.com/call us@ +2348065008454 </h4>
 
 
