@@ -24,5 +24,5 @@ Members of zetha group are:
 12-Aliyu Garba FCP/CCS/19/2004
 13- muazu yakubu
 FCP/CSC/19/2012
-13-Emmanuel Adukpe
+14-Emmanuel Adukpe
 FCP/CSC/18/1061
